@@ -52,7 +52,7 @@ export default class Recipe {
             let objIng;
             if(unitIndex > -1) {
                 //this is a unit
-                //ex. 4 1/2 cup of water, countArr = ['4'. '1/2']
+                //ex. 4 1/2 cup of water, countArr = ['4', '1/2']
                 //ex. 4 cup of w(ater, countArr = ['4']
                 const countArr = arrIng.slice(0, unitIndex);
 
